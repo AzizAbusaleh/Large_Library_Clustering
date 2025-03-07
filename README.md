@@ -1,7 +1,7 @@
 # Molecular Clustering with FAISS Multi-GPU Implementation
 
 ## Overview
-This code contains a high-performance implementation for clustering a large library ~ 10 million molecules based on molecular fingerprints. The implementation leverages FAISS (Facebook AI Similarity Search) distributed across multiple GPUs (I used 4 * V100 on DRAC clusters) to enable efficient similarity searching and clustering of molecular structures.
+This code contains a high-performance implementation for clustering a large library ~ 10 million molecules based on molecular fingerprints. This code leverages FAISS (Facebook AI Similarity Search, for more info about FAISS (https://ai.meta.com/tools/faiss/) distributed across multiple GPUs (I used 4 * V100 on DRAC clusters) to enable efficient similarity searching and clustering of molecular structures.
 
 ## Requirements
 - FAISS library
